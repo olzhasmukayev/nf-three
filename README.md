@@ -7,4 +7,4 @@ PLAY 3D TOWER GAME ON https://nf-three.vercel.app/
 <img width="1185" alt="image" src="https://github.com/olzhasmukayev/nf-three/assets/65302894/ddbb0873-9a24-4280-84a3-4b06f0f8d4b2">
 <img width="1183" alt="image" src="https://github.com/olzhasmukayev/nf-three/assets/65302894/a2f87594-ce6e-4122-b2b0-d2981eb6f2df">
 
-Build using React and Three.js
+Built using React and Three.js
