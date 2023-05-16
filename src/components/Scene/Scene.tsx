@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import * as THREE from "three";
 import * as CANNON from "cannon";
+//@ts-ignore
 import useSound from "use-sound";
 import sound from "/song/asd.mp3";
 
