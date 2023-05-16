@@ -262,7 +262,7 @@ const Scene = () => {
         >
           {!gameEnded ? (
             <div>
-              <p>Score: {score / 2}</p>
+              <p>Score: {score}</p>
               <p>Use ← and → to change the view</p>
             </div>
           ) : (
