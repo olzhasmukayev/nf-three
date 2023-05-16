@@ -224,6 +224,10 @@ const Scene = () => {
           speed = 0.025;
         }
 
+        if (stack.length > 50) {
+          speed = 0.035;
+        }
+
         const topLayer = stack[stack.length - 1];
 
         if (!gameEnded) {
