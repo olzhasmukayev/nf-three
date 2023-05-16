@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import * as THREE from "three";
 import * as CANNON from "cannon";
+import useSound from "use-sound";
+import sound from "/song/asd.mp3";
 
 const Scene = () => {
   const [score, setScore] = useState(0);
   const [gameEnded, setGameEnded] = useState(false);
+  const [playSound] = useSound(sound);
 
   useEffect(() => {
     let camera: any, scene: any, renderer: any;
@@ -268,6 +271,12 @@ const Scene = () => {
             <div>
               <p>Score: {score}</p>
               <p>Use ← and → to change the view</p>
+              <button
+                className="text-white border-[1px]"
+                onClick={() => playSound()}
+              >
+                ТЫК
+              </button>
             </div>
           ) : (
             <>YOU LOST, PRESS R TO RESTART</>
